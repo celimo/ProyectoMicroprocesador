@@ -1,3 +1,27 @@
 Fecha: 1/11/2020
 Hora de inicio: 15:00
 
+Se realiza un objdump para ver las instrucciones que se requieren en el proyecto, se determina que se necesitan:
+- LUI
+- ADDI
+- SW
+- ADD
+- SUB
+- SB
+- SW
+- LBU
+- BNE
+- JAL
+- LW
+- SRLI
+- XORI
+- ANDI
+- SLLI
+- SRAI
+
+Se procede a realizar los formatos tipo R, I y J, Para el formato tipo R e I no se encontraron problemas, pero, para el formato J la operación JAL presentó dificultades a la hora de incorporarlo en el diseño, se llega a una solución funcional y se deja la opción de proponer una mejor.
+
+Pendientes:
+- Pasar el circuito inicial de borrador a un formato digital
+
+Hora de finalización: 17:50

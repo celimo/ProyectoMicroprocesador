@@ -19,9 +19,171 @@ Se realiza un objdump para ver las instrucciones que se requieren en el proyecto
 - SLLI
 - SRAI
 
-Se procede a realizar los formatos tipo R, I y J, Para el formato tipo R e I no se encontraron problemas, pero, para el formato J la operación JAL presentó dificultades a la hora de incorporarlo en el diseño, se llega a una solución funcional y se deja la opción de proponer una mejor.
-
 Pendientes:
-- Pasar el circuito inicial de borrador a un formato digital
+- Realizar los formatos tipo R, I y J
 
 Hora de finalización: 17:50
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Fecha: 15/11/20
+Hora de inicio:5pm
+
+-Se realizaron los formatos tipo R, I y J, Para el formato tipo R e I no se encontraron problemas, pero, para el formato J la operación JAL presentó dificultades a la hora de incorporarlo en el diseño, se llega a una solución funcional y se deja la opción de proponer una mejor.
+
+
+Pendientes:
+- Pasar el circuito ia un formato digital final para adjuntar en el informe
+
+Hora de finalización:6:45pm
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Se dejo una semana porque otros cursos estaban quitando el tiempo de todos los miembros del trabajo por lo que no se asistio a la revision del 2do avance
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fecha: 29/11/20
+Hora de inicio: 4pm
+
+-Se corrigio el avance anterior segun las recomendaciones del profesor y se terminaron de soportar los tipos de formatos restantes
+ademas de modificar el circuito y los bloques necesarios para el correcto funcionamiento 
+
+
+Pendientes:
+- Pasar el circuito ia un formato digital final para adjuntar en el informe
+
+Hora de finalización: 7:45pm
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Como el pryecto se paso para semana 17
+Periodo de vacaciones 18 de diciembre al 2 enero
+Feliz navidad y año nuevo
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Fecha: 2/1/21
+Hora de inicio: 9 am
+
+Creacion de tareas necesarias para el proyecto
+
+1 - Fabricación de memoria de datos
+2 - Fabricación de registros
+3 - Fabricación de memoria de  instrucciones
+4 - Fabricación de muxs (Ya sea de 2, 4 entradas)
+5 - Fabricación del bloque extend
+6 - Fabricación de la ALU
+7 - Fabricación del bloque selección de palabra
+8 - Cablear los componentes
+
+Ver que sea funcional sin la unidad de control (Hacer pequeñas pruebas de los componentes)
+
+9 - Fabricar la unidad de control
+10 - Cablear todo
+11 - Hacer las pruebas
+
+
+Pendientes:
+- Repartir las tareas anteriores
+
+Hora de finalización: 12 am
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Fecha: 3/1/21
+Hora de inicio: 3pm
+
+Se reparten las tareas que cada miembro va a realizar 
+
+1 - Fabricación de memoria de datos (Armando)
+2 - Fabricación de registros (Alejandro)
+3 - Fabricación de memoria de  instrucciones (Armando)
+4 - Fabricación de muxs (Ya sea de 2, 4 entradas) (Jorge=
+5 - Fabricación del bloque extend (Jorge)
+6 - Fabricación de la ALU (Jorge)
+7 - Fabricación del bloque selección de palabra (Jorge)
+8 - Cablear los componentes (Célimo)
+9 - Fabricar la unidad de control (Célimo)
+10 - Cablear todo (Célimo)
+11 - Hacer las pruebas (Célimo)
+
+12-Pasar a limpio la bitacora(Alejandro)
+
+Se da una semana para investigar 
+
+Pendientes:
+- Investigar acerca de los bloques en verilog, instalar verilog y demas
+
+Hora de finalización: 4pm
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Fecha: 7/1/21
+Hora de inicio: 6pm
+
+-Revision y correccion de que faltaba incluir una funcion que se paso por alto, ademas se repaso todo lo que se llevaba del proyecto 
+
+Pendientes:
+- Creacion de los bloques del procesador usando verilog para unirlos al final, ademas se deben tener todos a mas tardar el 14 de enero para
+hacer las pruebas del procesador completo 
+
+Hora de finalización: 7pm
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Fecha: 9/1/21
+Hora de inicio: 3pm
+
+-Revision de como va la investigacion de cada miembro 
+
+Pendientes:
+- Creacion de los bloques del procesador usando verilog para unirlos al final, ademas se deben tener todos a mas tardar el 14 de enero para
+hacer las pruebas del procesador completo 
+
+Hora de finalización: 3:30pm
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fecha: 13/1/21
+Hora de inicio: 2pm
+
+-Se realizaron las pruebas de los bloques y ver que cada uno funcione correctamente por separado
+-Se reviso el progreso total y se paso a limpio la bitacora del proyecto 
+
+Pendientes:
+-Hacer las pruebas de la memoria
+-Juntar todos los bloques y revisar el correcto funcionamiento del proyecto
+-Pasar a limpio el circuito y la tabla de la unidad de control y demas
+
+Hora de finalización: 11:30pm
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

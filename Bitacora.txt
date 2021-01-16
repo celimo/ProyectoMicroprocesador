@@ -130,7 +130,7 @@ Hora de finalización: 4pm
 Fecha: 7/1/21
 Hora de inicio: 6pm
 
--Revision y correccion de que faltaba incluir una funcion que se paso por alto, ademas se repaso todo lo que se llevaba del proyecto 
+-Revision y correccion de que faltaba incluir una función que se paso por alto, la instrucción JALR no se había tomado en cuenta, ademas se repasó todo lo que se llevaba del proyecto 
 
 Pendientes:
 - Creacion de los bloques del procesador usando verilog para unirlos al final, ademas se deben tener todos a mas tardar el 14 de enero para
@@ -159,8 +159,9 @@ Hora de finalización: 3:30pm
 Fecha: 13/1/21
 Hora de inicio: 2pm
 
--Se realizaron las pruebas de los bloques y ver que cada uno funcione correctamente por separado
--Se reviso el progreso total y se paso a limpio la bitacora del proyecto 
+- Se realizaron las pruebas de los bloques y ver que cada uno funcione correctamente por separado
+- El bloque extend se trabajo entre dos compañeros para ver que instrucciones compartían operaciones de inmediatos y optimizar el bloque
+- Se revisó el progreso total y se paso a limpio la bitacora del proyecto 
 
 Pendientes:
 -Hacer las pruebas de la memoria
@@ -171,10 +172,33 @@ Hora de finalización: 11:30pm
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Fecha: 15/1/21
+Hora de inicio: 12pm
+
+- Se juntar los primeros bloques y se realizan prebas iniciales para comprobar que funcione lo que fue unido
+-- En concreto se realiza el decode, que incluye el bloque de registros, muxes y el bloque Extend
+- Se realiza una simulación para comprobar el funcionamiento
+-- El bloque decode funcionó a la primera y no presentó problema alguno
+- Se comentan algunos códigos pendientes, junto con su simulación
+
+Pendientes
+- Incluir memorias y seguir agrupando los bloques
 
 
+Hora de finalización: 3:00pm
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Fecha: 15/1/21
+Hora de inicio: 12pm
+
+- Se crea el bloque execute, el cual incluye dos muxes y la ALU
+- Además se une con el bloque decode y se realiza una simulación para comprobar el funcionamiento
+
+Pendientes
+- Incluir memorias
+
+Hora de finalización: 
 
 
 

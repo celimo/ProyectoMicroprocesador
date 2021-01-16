@@ -196,11 +196,13 @@ Hora de inicio: 12pm
 - Además se une con el bloque decode y se realiza una simulación para comprobar el funcionamiento
 - Se crean los bloques fetch y memory, dejando el espacio para las memorias
 - Se agregan los bloques al main y se realiza la simulación para comprobar el resultado
+- En medio del trabajo se observa que el bloque selección palabras debía de corregirse, pero era algo sencillo
+-- Se realiza la primer simulación, ya que no cuenta con memorias se le carga las operaciones a mano, en este caso se probó con varias sumas con inmediatos y la simulación no prsentó problemas.
 
 Pendientes
 - Incluir memorias
 
-Hora de finalización: 
+Hora de finalización: 5:35pm
 
 
 

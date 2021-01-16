@@ -189,11 +189,13 @@ Hora de finalización: 3:00pm
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Fecha: 15/1/21
+Fecha: 16/1/21
 Hora de inicio: 12pm
 
 - Se crea el bloque execute, el cual incluye dos muxes y la ALU
 - Además se une con el bloque decode y se realiza una simulación para comprobar el funcionamiento
+- Se crean los bloques fetch y memory, dejando el espacio para las memorias
+- Se agregan los bloques al main y se realiza la simulación para comprobar el resultado
 
 Pendientes
 - Incluir memorias

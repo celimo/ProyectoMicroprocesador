@@ -205,8 +205,58 @@ Pendientes
 Hora de finalización: 5:35pm
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fecha: 17/1/21
+Hora de inicio: 1:00pm
+
+- Anteriormente el clock solo se había contemplado en el flip flop D del PC, lo cual estaba incorrecto y generaba que algunas operaciones se hicieran de forma indefinida. Así que se procede a modificar los registros.
+- Una vez que se realiza esta corrección las operaciones que se comportaban de forma recursiva ya funcionaron de forma correcta
+
+Nota:
+- A este punto el proyecto parece funcional y no parece haber problemas con la arquitectura, a exepción de la operación SRA de la ALU
+
+Pendientes
+- Preguntar sobre la operación SRA de la ALU
+- Agregar el dump de la memoria
+- Agregar el GPIO
+
+Hora de finalización: 6:30pm
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fecha: 18/1/21
+Hora de inicio: 1:00pm
+
+- Se prueba el primer código basic y se observa que todos los resultados fueran correctos
+-- No generó problemas
+
+Pendientes
+- Agregar el dump de la memoria
+- Agregar el GPIO
+
+Hora de finalización: 3:00pm
+
+Nota:
+- En la consulta del profe se habla sobre la operación SRAI y además nos hace una obsevación sobre los corrimientos
+-- La solución del problema la realizó Jorge y ya no presenta problemas.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fecha: 19/1/21
+Hora de inicio: 6:00pm
+
+- Se modifican los registros y la memoria para que en los flancos positivos de reloj guarde los datos y en el flanco negativo de reloj imprima los datos.
+- Se quita el bloque seleccionar palabra y la funcionalidad de cargar el byte menos significativo del espacio de memoria pasa a ser una función propia de la memoria y se utiliza la misma señal de control para inficar cuando se debe cargar e byte menos significativo.
+- Se realizaron las simulaciones de los códigos basic, if, goto
+
+Pendientes
+- Agregar el dump de la memoria
+- Agregar el GPIO
+
+Hora de finalización: 10:30pm
 
 
 

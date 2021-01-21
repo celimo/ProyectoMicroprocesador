@@ -260,6 +260,40 @@ Hora de finalización: 10:30pm
 
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fecha: 20/1/21
+Hora de inicio: 5:00pm
+
+- Se comenzo a elaborar el informe, dandle formato y las partes necesarias
+- Se paso el diagrama a limpio y se sacaron los recueadros necesarios para el informe
+- Se delegaron las partes a realizar de cada miembro del proyecto
+
+
+Del informe en general
+- Cuadritos: Alejandro
+- Análisis del diseño: Célimo
+- Introducción: Jorge
+- Conclusiones: Armando
+- Recomendaciones: Armando
+- Referencias: Jorge
+- Resumen: Alejandro
+
+
+ De la descripción de la solución
+- Registros: Alejandro
+- Memoria de instrucciones: Célimo
+- Unidad de control: Célimo
+- ALU: Jorge
+- Memoria de datos: Armando
+- Extend: Célimo
+
+
+Pendientes
+- Agregar el dump de la memoria
+
+Hora de finalización: 11:50pm
+
 
 
 

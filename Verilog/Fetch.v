@@ -20,15 +20,15 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 /*
-Para tener mejor orden en el código se introdujo este bloque, que contiene el flip-flop D, la memoria de instrucciones
+Para tener mejor orden en el cÃ³digo se introdujo este bloque, que contiene el flip-flop D, la memoria de instrucciones
 y tiene conectados los bloques que se encargan de asignar el siguiente valor del PC
 
 - Entradas
-intExtend: Entrada de 32 bits, entrada del bloque extend, para la operación del BNE
+intExtend: Entrada de 32 bits, entrada del bloque extend, para la operaciÃ³n del BNE
 intJAL: Entrada conectada al bloque del mux que conecta la memoria de datos y la ALU
-contMux4: Señal de control para el mux de 4 enradas
-clock: Señal de clock para el flip-fop D
-reset: Señal de reset
+contMux4: SeÃ±al de control para el mux de 4 enradas
+clock: SeÃ±al de clock para el flip-fop D
+reset: SeÃ±al de reset
 
 - Salidas
 outINPUT: Salida de 32 bits con las instrucciones
@@ -44,7 +44,7 @@ module Fetch(intExtend, intJAL, contMux4, clock, reset, outINPUT, dataPC4, dataP
 	input [1:0] contMux4;
 	input clock, reset;
 	
-	output [31:0] outINPUT; // Todavía no se asigna porque no está la memoria
+	output [31:0] outINPUT; 
 	output [31:0] dataPC4, dataPC;
 	
 	wire [31:0] outMux4;

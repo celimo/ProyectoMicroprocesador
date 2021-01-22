@@ -21,7 +21,9 @@
 // Additional Comments:
 // 
 ////////////////////////////////////////////////////////////////////////////////
-
+//Objetivo:
+//Verificar como las salidas R1 y R2 contienen el valor del registro indicado por las entradas A1 y A2
+// as√≠ como revisar que se modifique el registro indicado por A3 cuando se le indique por medio de WR3
 module PruebaRegistros2;
 
 	// Inputs
@@ -80,8 +82,8 @@ module PruebaRegistros2;
         
 		// Add stimulus here
 		
-		// Se espera que el bloque registro ponga las salidas R1 y R2 dependiendo de la direcciÛn seleccionada
-		// Adem·s que el bloque guarde correctamente el valor de WR3 en la direcciÛn de A3
+		// Se espera que el bloque registro ponga las salidas R1 y R2 dependiendo de la direcci√≥n seleccionada
+		// Adem√°s que el bloque guarde correctamente el valor de WR3 en la direcci√≥n de A3
 
 	end
 	

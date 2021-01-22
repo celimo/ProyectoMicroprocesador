@@ -304,12 +304,12 @@ Hora de inicio: 5:00pm
 - Se siguio con el informe
 - Se realizo el dump de la memoria y se arrglo un registro para el GPIO
 - Se termino de probar el resto de los codigos 
-
+- El hexadecimal del código funct contenía errores, además para el buen funcionamiento del código se debía agregar un JAL al inicio de las instrucciones para que comience en el main, de no ser así el código se queda en un bucle en la función de restalocal
 
 
 Pendientes
 - Terminar el informe 
 
-Hora de finalización: 12:55am
+Hora de finalización: 22/2/21 - 12:55am
 
 

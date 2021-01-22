@@ -239,7 +239,7 @@ Pendientes
 Hora de finalización: 3:00pm
 
 Nota:
-- En la consulta del profe se habla sobre la operación SRAI y además nos hace una obsevación sobre los corrimientos
+- En la consulta del profe se habla sobre la operación SRAI y además nos hace una obsevación sobre los corrimientos con signo negativo
 -- La solución del problema la realizó Jorge y ya no presenta problemas.
 
 
@@ -311,5 +311,18 @@ Pendientes
 - Terminar el informe 
 
 Hora de finalización: 22/2/21 - 12:55am
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Fecha: 22/1/21
+Hora de inicio: 10:00am
+
+- Se termino y reviso el informe.
+- Se subio el informe al TEC digital.
+- Se reviso la documentacion de la implentación en Verilog.
+
+
+Pendientes
+- Presentar el proyecto
+
+Hora de finalización: 22/2/21 - 5:00pm
 

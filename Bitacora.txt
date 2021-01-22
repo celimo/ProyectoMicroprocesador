@@ -296,6 +296,20 @@ Hora de finalización: 11:50pm
 
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Fecha: 21/1/21
+Hora de inicio: 5:00pm
+
+- Se siguio con el informe
+- Se realizo el dump de la memoria y se arrglo un registro para el GPIO
+- Se termino de probar el resto de los codigos 
+
+
+
+Pendientes
+- Terminar el informe 
+
+Hora de finalización: 12:55am
 
 

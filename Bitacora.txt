@@ -301,10 +301,11 @@ Hora de finalización: 11:50pm
 Fecha: 21/1/21
 Hora de inicio: 5:00pm
 
-- Se siguio con el informe
-- Se realizo el dump de la memoria y se arrglo un registro para el GPIO
-- Se termino de probar el resto de los codigos 
+- Se siguió con el informe
+- Se realizó el dump de la memoria y se agergó un registro para el GPIO
+- Se terminó de probar el resto de los codigos 
 - El hexadecimal del código funct contenía errores, además para el buen funcionamiento del código se debía agregar un JAL al inicio de las instrucciones para que comience en el main, de no ser así el código se queda en un bucle en la función de restalocal
+- Al agregar un bloque que realice la función del GPIO se debe actualizar el diseño de la arquitectura y actualizar el circuito realizado.
 
 
 Pendientes
@@ -316,13 +317,18 @@ Hora de finalización: 22/2/21 - 12:55am
 Fecha: 22/1/21
 Hora de inicio: 10:00am
 
-- Se termino y reviso el informe.
-- Se subio el informe al TEC digital.
-- Se reviso la documentacion de la implentación en Verilog.
+- Se termina y revisa el informe.
+- Se subió el informe al TEC digital.
+- Se agregan los módulo de simulación faltantes.
+- Se revisa la documentacion de la implentación en Verilog y se hacen las correcciones o se agregan aclaraciones en los comentarios.
 
 
 Pendientes
 - Presentar el proyecto
+
+(∫˘▽˘)∫             ♪(┌・。・)┌
+          °\(^▿^)/°
+ƪ(˘⌣˘)┐             ┌(˘⌣˘)ʃ
 
 Hora de finalización: 22/2/21 - 5:00pm
 

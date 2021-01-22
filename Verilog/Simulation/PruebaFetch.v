@@ -24,33 +24,38 @@
 
 module PruebaFetch;
 
+	// Objetivo de la simulación
+	// Comprobar que los saltos del PC se realizan de manera correcta y la salida coincida con la dirección
+	// especificada
+	
 	// Inputs
 	reg [31:0] intExtend;
 	reg [31:0] intJAL;
-	reg [31:0] intJALR;
 	reg [1:0] contMux4;
 	reg clock;
 	reg reset;
 
 	// Outputs
 	wire [31:0] outINPUT;
+	wire [31:0] dataPC;
+	wire [31:0] dataPC4;
 
 	// Instantiate the Unit Under Test (UUT)
 	Fetch uut (
 		.intExtend(intExtend), 
-		.intJAL(intJAL), 
-		.intJALR(intJALR), 
+		.intJAL(intJAL),
 		.contMux4(contMux4), 
 		.clock(clock), 
 		.reset(reset), 
-		.outINPUT(outINPUT)
+		.outINPUT(outINPUT),
+		.dataPC4(dataPC4),
+		.dataPC(dataPC)
 	);
 
 	initial begin
 		// Initialize Inputs
 		intExtend = 10;
 		intJAL = 12;
-		intJALR = 14;
 		contMux4 = 0;
 		clock = 0;
 		reset = 1;
@@ -59,8 +64,22 @@ module PruebaFetch;
 		#10;
 		
 		reset = 0;
+		// Es espera que el siguiente valor de PC sea el de PC + 4
 		
 		#10;
+		
+		contMux4 = 1;
+		// Se espera que el valor de PC sea el de intJAL
+		
+		#10;
+		
+		contMux4 = 2;
+		// Se espera que el valor de PC sea el de la suma del PC actual con la entrada del Extend (intExtend)
+		
+		#10;
+		
+		contMux4 = 3;
+		// El valor de PC debe ser de intJALR
 		
 		$stop;
 

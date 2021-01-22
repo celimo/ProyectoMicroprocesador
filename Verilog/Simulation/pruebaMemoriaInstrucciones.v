@@ -54,7 +54,8 @@ module pruebaMemoriaInstrucciones;
 			#100;
 		end
 		
-		
+		// Lo que se espera es que cada vez que se actualice
+		// el contador i del for, la direccion de A aumente en 4
 		
 		$stop;
 		

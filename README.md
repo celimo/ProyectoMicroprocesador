@@ -1,6 +1,6 @@
 Instituto Tecnológico de Costa Rica
 
-Área académica ingeniería en mecatrónica 
+Área académica ingeniería en Mecatrónica 
 
 MT-7003 Microprocesadores y microcontroladores
 
@@ -14,3 +14,11 @@ Objetivo General.
 
 Familiarizar al estudiante en el desarrollo de una microarquitectura; aplicando herramientas de implementación digital, métodos de diseño y conceptos de microprocesadores
 para implementar el set de enteros de la arquitectura de código abierto RISCV.
+
+
+Integrantes:
+
+-Armando Duran
+-Alejandro Gómez
+-Celimo Porras
+-Jorge Sanabria 

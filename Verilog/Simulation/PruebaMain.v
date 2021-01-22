@@ -21,7 +21,9 @@
 // Additional Comments:
 // 
 ////////////////////////////////////////////////////////////////////////////////
-
+//Objetivo de la prueba:
+//Verificar el comportamiento de la microarquitectura RISCV32I, al unir los bloques del execute, fetch, decode, control unit,
+//memoria de datos, memoria de instrucciones y flip flop GPIO.
 
 module PruebaMain;
 
@@ -83,7 +85,7 @@ module PruebaMain;
 			end
 			
 			f = $fopen("Dumps/dumpInstrucciones.txt","w");
-			$fwrite(f, "Dirección   valor(hex)\n","");
+			$fwrite(f, "DirecciÃ³n   valor(hex)\n","");
 			#5;
 			for (i = 0; i<64; i = i +1)
 			begin
@@ -110,7 +112,7 @@ module PruebaMain;
 			end
 			
 			f = $fopen("Dumps/dumpDatos.txt","w");
-			$fwrite(f, "Dirección   valor(hex)\n","");
+			$fwrite(f, "DirecciÃ³n   valor(hex)\n","");
 			#5;
 			for (i = 0; i<250; i = i +1)
 			begin
@@ -130,6 +132,7 @@ module PruebaMain;
 	end // Final del always
 	
 	initial forever #5 clock = ~clock;
+	//Lo que se espera es completar con exito cada una de los seis codigos C que se decodificaron.
    
 endmodule
 

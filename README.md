@@ -18,7 +18,7 @@ para implementar el set de enteros de la arquitectura de código abierto RISCV.
 
 Integrantes:
 
--Armando Duran
+-Armando Durán
 -Alejandro Gómez
--Celimo Porras
+-Célimo Porras
 -Jorge Sanabria 
